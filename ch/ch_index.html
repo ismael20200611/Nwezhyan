@@ -1,108 +1,95 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="es-ES" dir="ltr">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Home</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>产品</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/style_product.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+  <script src="../js/script.js" defer></script>
+  <style>
+
+  </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <!-- <a href="#" class="logo"><img src="../img/logo.png" alt="Logo" class="logo" /></a> &nbsp;&nbsp;&nbsp; -->
-            <!-- Hamburger toggle for mobile -->
-            <div class="menu-toggle" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul id="navLinks">
-                <li><a href="index.html" class="active">Home</a></li>
-                <!-- <li><a href="product.html" >Product</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li> -->
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Language ▼</a>
-                    <div class="dropdown-content">
-                        <a href="Ku/ku_index.html">Kurdish</a>
-                        <a href="ar/ar_index.html">Arabic</a>
-                        <a href="fr/fr_index.html">French</a>
-                        <a href="sp/sp_index.html">Spanish</a>
-                        <a href="po/po_index.html">Polish</a>
-                        <a href="it/it_index.html">Italian</a>
-                        <a href="ch/ch_index.html">Chinese</a>
-                        <a href="ge/ge_index.html">German</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <h1>Welcome to the Home Page Nwezhyan</h1>
-        <p>Explore our range of products designed to enhance your health.</p>
-        <div class="product-list">
-            <div class="product-item">
-                <img src="img/BloodTypeCompatibility.PNG" alt="Product 1">
-                <h2>🩸 Product 1: Blood Type Compatibility Kit</h2>
-                <p>This easy-to-use kit helps you determine your blood type and understand compatibility for blood
-                    donations and
-                    transfusions.
-                    Ideal for health-conscious individuals, families, or educational use, it’s a valuable tool for
-                    anyone wanting
-                    to learn more about their health.
-                </p>
-                <a href="https://blood-type2025.vercel.app/">View Details</a>
+  <header>
+    <nav>
+      <a href="#" class="logo"><img src="../img/logo.PNG" alt="Logo" class="logo" /></a> &nbsp;&nbsp;&nbsp;
+      <!-- Hamburger toggle for mobile -->
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="navLinks">
+        <li><a href="ch_index.html">家</a></li>
+        <!-- <li><a href="ch_product.html" class="active">生产</a></li>
+        <li><a href="ch_about.html">关于</a></li>
+        <li><a href="ch_contact.html">接触</a></li> -->
+        <li class="dropdown">
+          <a href="#" class="dropbtn">语言 ▼</a>
+          <div class="dropdown-content">
+            <a href="../index.html">英语</a>
+            <a href="../Ku/ku_index.html">库尔德语</a>
+            <a href="../ar/ar_index.html">阿拉伯语</a>
+            <a href="../fr/fr_index.html">法语</a>
+            <a href="../sp/sp_index.html">西班牙语</a>
+            <a href="../po/po_index.html">波兰语</a>
+            <a href="../it/it_index.html">意大利语</a>
+            <a href="../ge/ge_index.html">德语</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>欢迎来到 Nwezhyan 主页</h1>
+    <p>探索我们旨在增进您健康的一系列产品。</p>
+    <div class="product-list">
+      <div class="product-item">
+        <img src="../img/BloodTypeCompatibility.PNG" alt="Product 1">
+        <h2>🩸 产品1：血型相容性试剂盒</h2>
+        <p>这款易于使用的试剂盒可帮助您确定您的血型，并了解献血和输血的兼容性。
+          它非常适合注重健康的个人、家庭或教育用途，对于任何想要了解更多自身健康信息的人来说，它都是一个宝贵的工具。
+        </p>
+        <a href="https://blood-type2025.vercel.app/">查看详情</a>
 
-            </div>
-            <div class="product-item">
-                <img src="img/BloodPressureChecker.PNG" alt="Product 2">
-                <h2>🩺 Product 2: Digital Blood Pressure Monitor</h2>
-                <p> A reliable and easy-to-use device designed to help you monitor your blood pressure at home.
-                    Ideal for daily health tracking, it provides accurate readings and supports early detection of
-                    potential
-                    issues.
-                    Perfect for individuals managing hypertension or anyone focused on heart health.</p>
-                <a href="https://blood-pressure20.vercel.app/index.html">View Details</a>
-            </div>
-            <div class="product-item">
-                <img src="img/BloodSugarMonitor.PNG" alt="Product 3">
-                <h2>🧪 Product 3: Digital Blood Sugar Monitor</h2>
-                <p>A reliable and easy-to-use device designed to help you monitor your blood sugar levels at home.
-                    Ideal for daily health tracking, it provides accurate readings and supports early detection of
-                    potential
-                    issues related to diabetes. Perfect for individuals managing diabetes or anyone focused on
-                    maintaining
-                    balanced blood glucose levels.
-                </p>
-                <a href="https://blood-sugar30.vercel.app/">View Details</a>
-            </div>
-            <div class="product-item">
-                <img src="img/VitaminHealthHelper.PNG" alt="Product 4">
-                <h2>🌿 Product 4: Vitamin Health Helper</h2>
-                <p> A smart and interactive tool that helps you identify and recover from vitamin deficiencies based on
-                    your
-                    lifestyle, symptoms, and habits.
-                    It offers personalized advice including food suggestions, sun exposure tips, and exercise routines
-                    to
-                    naturally boost your health.
-                    Ideal for anyone looking to maintain optimal well-being through balanced nutrition and daily
-                    wellness.
-                </p>
-                <a href="https://vitamin-health25.vercel.app/">View Details</a>
-            </div>
-        </div>
+      </div>
+      <div class="product-item">
+        <img src="../img/BloodPressureChecker.PNG" alt="Product 2">
+        <h2>🩺 产品2：电子血压计</h2>
+        <p> 这是一款可靠易用的设备，旨在帮助您在家中监测血压。
+          它非常适合日常健康追踪，提供精准的读数，并支持及早发现潜在问题。
+          非常适合高血压管理者或关注心脏健康的任何人。</p>
+        <a href="https://blood-pressure20.vercel.app/index.html">查看详情</a>
+      </div>
+      <div class="product-item">
+        <img src="../img/BloodSugarMonitor.PNG" alt="Product 3">
+        <h2>🧪 产品3：数字血糖监测仪</h2>
+        <p>这是一款可靠易用的设备，旨在帮助您在家中监测血糖水平。
+          它非常适合日常健康追踪，提供精准的读数，并支持及早发现潜在的糖尿病相关问题。非常适合糖尿病管理者或任何专注于维持平衡血糖水平的人。
+        </p>
+        <a href="https://blood-sugar30.vercel.app/">查看详情</a>
+      </div>
+      <div class="product-item">
+        <img src="../img/VitaminHealthHelper.PNG" alt="Product 4">
+        <h2>🌿 产品4：维生素健康助手</h2>
+        <p> 这是一款智能互动工具，可根据您的生活方式、症状和习惯，帮助您识别和恢复维生素缺乏症。
+          它提供个性化建议，包括饮食建议、日晒技巧和运动习惯，
+          以自然的方式提升您的健康。
+          非常适合希望通过均衡营养和日常保健来保持最佳健康状态的任何人。
+        </p>
+        <a href="https://vitamin-health25.vercel.app/">查看详情</a>
+      </div>
     </div>
+  </div>
 
-
-
-
-
-
-
-    <div class="socials-container">
+ <div class="socials-container">
         <!-- <a data-social="Twitter" style="--accent-color: black;" href="">
       <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
     </a> -->
@@ -136,27 +123,26 @@
     </div>
 
 
+ 
     <!-- Footer -->
     <footer>
-        <p>Created by <a href="https://ismael-software.vercel.app/" target="_blank">Nwezhyan</a></p>
-        <p>Last updated: July 2025</p>
-        &copy; All Right Reserved.
-        Designed By <a class="border-bottom" href="https://ismael-software.vercel.app/">Nwezhyan</a>
+        <p>创建者 <a href="https://ismael-software.vercel.app/" target="_blank">Nwezhyan</a></p>
+        <p>最后更新：2025年7月</p>
+        &copy; 版权所有。
+        设计者 <a class="border-bottom" href="https://ismael-software.vercel.app/">Nwezhyan</a>
         </p>
     </footer>
     <!-- JavaScript for Hamburger Menu -->
 
 
+  <!-- JavaScript for Hamburger Menu -->
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+  </script>
 
-
-
-    <script>
-        function toggleMenu() {
-            const navLinks = document.getElementById('navLinks');
-            navLinks.classList.toggle('active');
-        }
-    </script>
-    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,108 +1,101 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en" dir="ltr">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Home</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/style_product.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+  <script src="../js/script.js" defer></script>
+  <style>
+
+  </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <!-- <a href="#" class="logo"><img src="../img/logo.png" alt="Logo" class="logo" /></a> &nbsp;&nbsp;&nbsp; -->
-            <!-- Hamburger toggle for mobile -->
-            <div class="menu-toggle" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul id="navLinks">
-                <li><a href="index.html" class="active">Home</a></li>
-                <!-- <li><a href="product.html" >Product</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li> -->
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Language ▼</a>
-                    <div class="dropdown-content">
-                        <a href="Ku/ku_index.html">Kurdish</a>
-                        <a href="ar/ar_index.html">Arabic</a>
-                        <a href="fr/fr_index.html">French</a>
-                        <a href="sp/sp_index.html">Spanish</a>
-                        <a href="po/po_index.html">Polish</a>
-                        <a href="it/it_index.html">Italian</a>
-                        <a href="ch/ch_index.html">Chinese</a>
-                        <a href="ge/ge_index.html">German</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <h1>Welcome to the Home Page Nwezhyan</h1>
-        <p>Explore our range of products designed to enhance your health.</p>
-        <div class="product-list">
-            <div class="product-item">
-                <img src="img/BloodTypeCompatibility.PNG" alt="Product 1">
-                <h2>🩸 Product 1: Blood Type Compatibility Kit</h2>
-                <p>This easy-to-use kit helps you determine your blood type and understand compatibility for blood
-                    donations and
-                    transfusions.
-                    Ideal for health-conscious individuals, families, or educational use, it’s a valuable tool for
-                    anyone wanting
-                    to learn more about their health.
-                </p>
-                <a href="https://blood-type2025.vercel.app/">View Details</a>
+  <header>
+    <nav>
+      <a href="#" class="logo"><img src="../img/logo.PNG" alt="Logo" class="logo" /></a> &nbsp;&nbsp;&nbsp;
+      <!-- Hamburger toggle for mobile -->
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="navLinks">
+        <li><a href="fr_index.html">Maison</a></li>
+        <!-- <li><a href="fr_product.html" class="active">Produire</a></li>
+        <li><a href="fr_about.html">À propos</a></li>
+        <li><a href="fr_contact.html">Contact</a></li> -->
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Langue ▼</a>
+          <div class="dropdown-content">
+            <a href="../index.html">Anglais</a>
+            <a href="../Ku/ku_index.html">Kurde</a>
+            <a href="../ar/ar_index.html">Arabe</a>
+            <a href="../sp/sp_index.html">Espagnole</a>
+            <a href="../po/po_index.html">polonais</a>
+            <a href="../it/it_index.html">Italienne</a>
+            <a href="../ch/ch_index.html">Chinoise</a>
+            <a href="../ge/ge_index.html">Allemande</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Bienvenue sur la page d'accueil de Nwezhyan</h1>
+    <p>Découvrez notre gamme de produits conçus pour améliorer votre santé.</p>
+    <div class="product-list">
+      <div class="product-item">
+        <img src="../img/BloodTypeCompatibility.PNG" alt="Product 1">
+        <h2>🩸 Produit 1 : Kit de compatibilité des groupes sanguins</h2>
+        <p>Ce kit facile à utiliser vous aide à déterminer votre groupe sanguin et à comprendre la compatibilité pour
+          les dons et les transfusions sanguines. Idéal pour les personnes soucieuses de leur santé, les familles ou à
+          des fins éducatives, c'est un outil précieux pour quiconque souhaite en savoir plus sur sa santé.
+        </p>
+        <a href="https://blood-type2025.vercel.app/">Voir les détails</a>
 
-            </div>
-            <div class="product-item">
-                <img src="img/BloodPressureChecker.PNG" alt="Product 2">
-                <h2>🩺 Product 2: Digital Blood Pressure Monitor</h2>
-                <p> A reliable and easy-to-use device designed to help you monitor your blood pressure at home.
-                    Ideal for daily health tracking, it provides accurate readings and supports early detection of
-                    potential
-                    issues.
-                    Perfect for individuals managing hypertension or anyone focused on heart health.</p>
-                <a href="https://blood-pressure20.vercel.app/index.html">View Details</a>
-            </div>
-            <div class="product-item">
-                <img src="img/BloodSugarMonitor.PNG" alt="Product 3">
-                <h2>🧪 Product 3: Digital Blood Sugar Monitor</h2>
-                <p>A reliable and easy-to-use device designed to help you monitor your blood sugar levels at home.
-                    Ideal for daily health tracking, it provides accurate readings and supports early detection of
-                    potential
-                    issues related to diabetes. Perfect for individuals managing diabetes or anyone focused on
-                    maintaining
-                    balanced blood glucose levels.
-                </p>
-                <a href="https://blood-sugar30.vercel.app/">View Details</a>
-            </div>
-            <div class="product-item">
-                <img src="img/VitaminHealthHelper.PNG" alt="Product 4">
-                <h2>🌿 Product 4: Vitamin Health Helper</h2>
-                <p> A smart and interactive tool that helps you identify and recover from vitamin deficiencies based on
-                    your
-                    lifestyle, symptoms, and habits.
-                    It offers personalized advice including food suggestions, sun exposure tips, and exercise routines
-                    to
-                    naturally boost your health.
-                    Ideal for anyone looking to maintain optimal well-being through balanced nutrition and daily
-                    wellness.
-                </p>
-                <a href="https://vitamin-health25.vercel.app/">View Details</a>
-            </div>
-        </div>
+      </div>
+      <div class="product-item">
+        <img src="../img/BloodPressureChecker.PNG" alt="Product 2">
+        <h2>🩺 Produit 2 : Tensiomètre numérique</h2>
+        <p>Un appareil fiable et facile à utiliser, conçu pour vous aider à surveiller votre tension artérielle à
+          domicile.
+          Idéal pour le suivi quotidien de votre santé, il fournit des mesures précises et permet une détection précoce
+          des problèmes potentiels.
+          Parfait pour les personnes souffrant d'hypertension ou soucieuses de leur santé cardiaque.</p>
+        <a href="https://blood-pressure20.vercel.app/index.html">Voir les détails</a>
+      </div>
+      <div class="product-item">
+        <img src="../img/BloodSugarMonitor.PNG" alt="Product 3">
+        <h2>🧪 Produit 3 : Moniteur numérique de la glycémie</h2>
+        <p>Un appareil fiable et facile à utiliser conçu pour vous aider à surveiller votre taux de sucre dans le sang à
+          domicile. Idéal pour le suivi quotidien de la santé, il fournit des lectures précises et soutient la détection
+          précoce de problèmes potentiels liés au diabète. Parfait pour les personnes gérant le diabète ou pour
+          quiconque axé sur le maintien de niveaux de glucose sanguin équilibrés.
+        </p>
+        <a href="https://blood-sugar30.vercel.app/">Voir les détails</a>
+      </div>
+      <div class="product-item">
+        <img src="../img/VitaminHealthHelper.PNG" alt="Product 4">
+        <h2>🌿 Produit 4 : Aide à la santé des vitamines</h2>
+        <p> Un outil intelligent et interactif qui vous aide à identifier et à récupérer des carences en vitamines en
+          fonction de votre mode de vie, de vos symptômes et de vos habitudes. Il offre des conseils personnalisés, y
+          compris des suggestions alimentaires, des conseils sur l'exposition au soleil et des routines d'exercice pour
+          améliorer naturellement votre santé. Idéal pour quiconque cherchant à maintenir un bien-être optimal grâce à
+          une nutrition équilibrée et un bien-être quotidien.
+        </p>
+        <a href="https://vitamin-health25.vercel.app/">Voir les détails</a>
+      </div>
     </div>
+  </div>
 
-
-
-
-
-
-
-    <div class="socials-container">
+ <div class="socials-container">
         <!-- <a data-social="Twitter" style="--accent-color: black;" href="">
       <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
     </a> -->
@@ -134,29 +127,30 @@
     <a data-social="Telegram" style="--accent-color: #26A5E4;" href="#"></svg>
     </a> -->
     </div>
+  
 
 
+
+  
     <!-- Footer -->
     <footer>
-        <p>Created by <a href="https://ismael-software.vercel.app/" target="_blank">Nwezhyan</a></p>
-        <p>Last updated: July 2025</p>
-        &copy; All Right Reserved.
-        Designed By <a class="border-bottom" href="https://ismael-software.vercel.app/">Nwezhyan</a>
+        <p>Créé par <a href="https://ismael-software.vercel.app/" target="_blank">Nwezhyan</a></p>
+        <p>Dernière mise à jour : juillet 2025</p>
+        &copy; Tous droits réservés.
+        Conçu par <a class="border-bottom" href="https://ismael-software.vercel.app/">Nwezhyan</a>
         </p>
     </footer>
     <!-- JavaScript for Hamburger Menu -->
 
 
+  <!-- JavaScript for Hamburger Menu -->
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+  </script>
 
-
-
-    <script>
-        function toggleMenu() {
-            const navLinks = document.getElementById('navLinks');
-            navLinks.classList.toggle('active');
-        }
-    </script>
-    <script src="js/script.js"></script>
 </body>
 
 </html>
